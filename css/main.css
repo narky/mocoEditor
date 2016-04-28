@@ -1,0 +1,48 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    width:  1000px;
+    margin: 0 auto;
+}
+#mainEditor {
+    height: 620px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
+#jsonOrigin {
+    display: none;
+}
+.load-save {
+    padding-top: 20px;
+    position: relative;
+}
+.load-save:after {
+    content: "";
+    display: block;
+    line-height: 0;
+    height: 0;
+    clear: both;
+}
+.load-save label {
+    position: relative;
+    border: 1px solid #3883fa;
+    border-radius: 4px;
+    background: #fff;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: #3883fa;
+}
+.load-save .save {
+    float: right;
+}
+.load-save .button.file {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
